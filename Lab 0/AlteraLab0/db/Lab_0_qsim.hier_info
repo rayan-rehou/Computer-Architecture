@@ -1,0 +1,21 @@
+|FullAdder
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+A => XOR3:inst3.IN3
+C_IN => inst2.IN1
+C_IN => inst1.IN1
+C_IN => XOR3:inst3.IN1
+B => inst1.IN0
+B => inst.IN1
+B => XOR3:inst3.IN2
+SUM <= XOR3:inst3.OUT
+
+
+|FullAdder|XOR3:inst3
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+

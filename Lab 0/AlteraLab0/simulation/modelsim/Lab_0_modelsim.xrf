@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, H:/CEG 2136/Lab 0/AlteraLab0/FullAdder.bdf
+source_file = 1, H:/CEG 2136/Lab 0/AlteraLab0/output_files/Waveform.vwf
+source_file = 1, H:/CEG 2136/Lab 0/AlteraLab0/db/Lab_0.cbx.xml
+source_file = 1, c:/programdata/app-v/42a7790a-e852-4fd0-a846-61fbcbd0279a/f6001447-9727-4074-b939-1c3d5bbc9b4c/root/quartus_ii/quartus/libraries/others/maxplus2/xor3.bdf
+design_name = FullAdder
+instance = comp, \C_OUT~output , C_OUT~output, FullAdder, 1
+instance = comp, \SUM~output , SUM~output, FullAdder, 1
+instance = comp, \B~input , B~input, FullAdder, 1
+instance = comp, \A~input , A~input, FullAdder, 1
+instance = comp, \C_IN~input , C_IN~input, FullAdder, 1
+instance = comp, \inst4~0 , inst4~0, FullAdder, 1
+instance = comp, \inst3|1~0 , inst3|1~0, FullAdder, 1
